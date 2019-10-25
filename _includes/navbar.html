@@ -1,33 +1,27 @@
 <div class="nav-wrapper">
-      <span class="site-title">{{ site.title }}</span>
+        <a href="{{ '/' | prepend: site.baseurl }}" class="white-text"><span class="site-title">{{ site.title }}</span></a>
       <a href="#" data-activates="mobile-navbar" class="button-collapse"><i class="mdi mdi-menu white-text"></i></a>
       
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="{{ '/' | prepend: site.baseurl }}" class="white-text">
-            <i class="mdi mdi-home left indigo-text text-lighten-3"></i>Home
+        <li><a href="{{ '/last' | prepend: site.baseurl }}" class="white-text">Last Year
         </a></li>
-        <li><a href="{{ '/about' | prepend: site.baseurl }}" class="white-text">
-            <i class="mdi mdi-account-circle left indigo-text text-lighten-3"></i>About
+        <li><a href="{{ '/lasttwo' | prepend: site.baseurl }}" class="white-text"> Last Two Years
         </a></li>
-        <li><a href="{{ '/category' | prepend: site.baseurl }}" class="white-text">
-            <i class="mdi mdi-folder-multiple left indigo-text text-lighten-3"></i>Category
+        <li><a href="{{ '/lastthree' | prepend: site.baseurl }}" class="white-text"> Last Three Years
         </a></li>
-        <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="white-text">
-            <i class="mdi mdi-rss left indigo-text text-lighten-3"></i>RSS
+        <li><a href="{{ '/lastfour' | prepend: site.baseurl }}" class="white-text"> Last Four Years
         </a></li>
       </ul>
       <ul class="side-nav" id="mobile-navbar">
-        <li><a href="{{ '/' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-home left green-text"></i>Home
+        <li><a href="{{ '/last' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            Last Year
         </a></li>
-        <li><a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-account-circle left blue-text"></i>About
+        <li><a href="{{ '/lasttwo' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            Last Two Years
         </a></li>
-        <li><a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-folder-multiple left yellow-text text-darken-1"></i>Category
+        <li><a href="{{ '/lastthree' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text"> Last Three Years
         </a></li>
-        <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-rss left red-text"></i>RSS
+        <li><a href="{{ '/lastfour' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text"> Last Four Years
         </a></li>
       </ul>
 </div>

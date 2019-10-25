@@ -1,12 +1,21 @@
 # **NOTE**
 # 1. Empty strings are truthy.
 
-- id: tab-test
-  name: test
-  fp: tab/test.html
-  disabled: false
+- id: last-one
+  name: Last Year
+  link: tab/last_year.html
 
-- id: tab-test1
-  name: diasble-test
-  fp: tab/test1.html
-  disabled: true
+# - id: last-two
+#   name: Last Two Years
+#   fp: tab/test.html
+#   disabled: false
+
+# - id: last-three
+#   name: Last Three Years
+#   fp: tab/test.html
+#   disabled: false
+
+# - id: last-four
+#   name: Last Four Years
+#   fp: tab/test.html
+#   disabled: false

@@ -7,11 +7,11 @@ layout: default
     <div class="page-heading">
         <ul class="collapsible popout" data-collapsible="accordion">
           <li>
-            <div class="collapsible-header favo"><i class="mdi mdi-weather-windy-variant"></i>These are the organizations which appeared atleast once in last four years in GSOC<i class="mdi mdi-pin right pink-text hide-on-small-only"></i></div>
+            <div class="collapsible-header favo"><i class="mdi mdi-weather-windy-variant"></i>These are the organizations which appeared last three years in GSOC<i class="mdi mdi-pin right pink-text hide-on-small-only"></i></div>
           </li>
         </ul>
       </div>
-      {% for org in site.data.all_orgs %}
+      {% for org in site.data.last_three_years %}
       {% assign remainder = forloop.index | modulo: 3 %}
       {% if remainder == 1 %} 
       <div class="row">

@@ -8,23 +8,8 @@
     <header class="site-header">
       <nav class="nav-extended {{ site.header-color }}">
         {% include navbar.html %}
-
-        <div class="nav-content">
-          <ul class="tabs tabs-transparent">
-            <li class="tab"><a class="active" href="#tab-main">main</a></li>
-          {% for t in site.data.tabs %}
-            <li class="tab {% if t.disabled %}disabled{% endif %}"><a href="#{{ t.id }}">{{ t.name }}</a></li>
-          {% endfor %}
-          </ul>
-        </div>
       </nav>
     </header>
-
-  {% for t in site.data.tabs %}
-    <div id="{{ t.id }}">
-      {% include {{ t.fp }} %}
-    </div>
-  {% endfor %}
 
     <div class="site-container" id="tab-main"> 
       <div class="wrapper">

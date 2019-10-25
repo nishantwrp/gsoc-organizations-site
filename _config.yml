@@ -2,17 +2,16 @@
 
 author: Nishant Mittal
 email: mittalnishant14@outlook.com
-twitter_username: nishantwrp
-github_username:  nishantwrp
+github_username:  nishantwrp/gsoc-organizations-site
 
-head-title: Your blog
-title: Your blog
+head-title: GSOC Organizations
+title: GSOC Organizations
 
-baseurl: "/materialize-jekyll"    # the subpath of your site, "/blog"
+baseurl: ""    # the subpath of your site, "/blog"
 url: ""
 
 # footer 
-description: "I know that what I'm doing looks stupid, but I'm a big boy and really want to do this."
+description: "This site list the origanizations participating in gsoc from the past 4 years"
 
 #
 # Build settings
