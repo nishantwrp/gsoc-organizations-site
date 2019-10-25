@@ -1,0 +1,62 @@
+# Site settings
+
+author: Nishant Mittal
+email: mittalnishant14@outlook.com
+twitter_username: nishantwrp
+github_username:  nishantwrp
+
+head-title: Your blog
+title: Your blog
+
+baseurl: "/materialize-jekyll"    # the subpath of your site, "/blog"
+url: ""
+
+# footer 
+description: "I know that what I'm doing looks stupid, but I'm a big boy and really want to do this."
+
+#
+# Build settings
+#
+
+#exclude: [vendor]
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  highlight: true
+  auto_ids:  true
+
+sass:
+  style: compressed
+
+permalink: /posts/:categories/:title.html
+
+paginate: 7
+#paginate_path: 'page/:num'
+
+gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
+
+
+#
+# Custom
+#
+
+# Color
+# All css class, see: http://materializecss.com/color.html
+header-color: "indigo lighten-1"
+head-theme-color: "#5c6bc0"     # MUST in hex format, may the same as header-color. This color is for android chrome browser.
+
+footer-color: "indigo lighten-1"
+footer-button-color: "indigo lighten-2"
+footer-link-color: "red-text text-accent-1"
+
+share-button-color: "pink"
+share-button-small-color: ""
+
+
+##
+#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
+
