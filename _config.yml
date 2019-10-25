@@ -11,7 +11,7 @@ baseurl: ""    # the subpath of your site, "/blog"
 url: ""
 
 # footer 
-description: "This site list the origanizations participating in gsoc from the past 4 years"
+description: "This site lists the origanizations participating in gsoc from the past 4 years"
 
 #
 # Build settings
