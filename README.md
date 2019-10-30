@@ -14,7 +14,7 @@
 
 ## Web Scraper
 
-The organizations are scraped from the official GSOC archive. You can find the webscraper code [here](https://github.com/nishantwrp/gsoc-organizations-scrapper)
+The organizations are scraped from the official GSOC archive. You can find the webscraper code [here](https://github.com/nishantwrp/gsoc-organizations-scraper)
 
 ## Acknowledgements
 
