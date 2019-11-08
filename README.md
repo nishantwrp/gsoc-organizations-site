@@ -2,7 +2,7 @@
 
 ## About
 
-> This site lists the origanizations participating in gsoc from the past 4 years
+> This site lists the origanizations participating in gsoc from the past 4 years.
 
 ## Technical Stack
 
