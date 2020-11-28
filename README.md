@@ -1,4 +1,5 @@
 # GSOC Organizations
+**I've started developing newer versionn of this site which will be released soon.**
 
 ## About
 
@@ -10,13 +11,12 @@
 
 ## Deployment
 
-- The site is deployed using netlify. You can find the site [here](https://gsoc-organizations.netlify.com/)
+- The site is deployed using netlify. You can find the site [here](https://gsocorganizations.dev/)
 
 ## Web Scraper
 
-The organizations are scraped from the official GSOC archive. You can find the webscraper code [here](https://github.com/nishantwrp/gsoc-organizations-scraper)
+The organizations are scraped from the official GSOC archive.
 
 ## Acknowledgements
 
 - [https://github.com/mumuxme/materialize-jekyll](https://github.com/mumuxme/materialize-jekyll)
-
