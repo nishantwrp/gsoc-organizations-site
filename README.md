@@ -1,5 +1,5 @@
 # GSOC Organizations
-**I've started developing newer versionn of this site which will be released soon.**
+**This project is archived. I've developed a newer version of GSoC Organizations which is available [here](https://www.gsocorganizations.dev/).**
 
 ## About
 
